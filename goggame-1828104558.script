@@ -1,0 +1,145 @@
+{
+    "actions": [
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKEY_CURRENT_USER",
+                    "saveGameData": true,
+                    "subkey": "Software\\Raven Software\\SoF",
+                    "valueData": "{app}",
+                    "valueName": "Path",
+                    "valueType": "string"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey1"
+        },
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKEY_CURRENT_USER",
+                    "saveGameData": true,
+                    "subkey": "Software\\Raven Software\\SoF",
+                    "valueData": "444961243",
+                    "valueName": "Graphics",
+                    "valueType": "dword"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey2"
+        },
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKEY_CURRENT_USER",
+                    "saveGameData": true,
+                    "subkey": "Software\\Raven Software\\SoF",
+                    "valueData": "2680059843",
+                    "valueName": "Sound",
+                    "valueType": "dword"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey3"
+        },
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKEY_CURRENT_USER",
+                    "saveGameData": true,
+                    "subkey": "Software\\Raven Software\\SoF",
+                    "valueData": "1163109439",
+                    "valueName": "Input",
+                    "valueType": "dword"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey4"
+        },
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKEY_CURRENT_USER",
+                    "saveGameData": true,
+                    "subkey": "Software\\Raven Software\\SoF",
+                    "valueData": "533316371",
+                    "valueName": "Networking",
+                    "valueType": "dword"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey5"
+        },
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKEY_CURRENT_USER",
+                    "saveGameData": true,
+                    "subkey": "Software\\Raven Software\\SoF",
+                    "valueData": "1349362027",
+                    "valueName": "Performance",
+                    "valueType": "dword"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey6"
+        },
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKEY_CURRENT_USER",
+                    "saveGameData": true,
+                    "subkey": "Software\\Raven Software\\SoF",
+                    "valueData": "bwDylgc=",
+                    "valueName": "Server",
+                    "valueType": "binary"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey7"
+        },
+        {
+            "install": {
+                "action": "setRegistry",
+                "arguments": {
+                    "deleteSubkeys": true,
+                    "root": "HKLM",
+                    "subkey": "Software\\Activision\\Soldier of Fortune Platinum"
+                }
+            },
+            "languages": [
+                "*"
+            ],
+            "name": "registryKey8"
+        }
+    ],
+    "productId": "1828104558"
+}

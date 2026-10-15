@@ -1,0 +1,19 @@
+[ActiveNet]
+Cmdline=
+Name=Soldier of Fortune Platinum
+Run=SoF.exe
+SessionType=
+Platform=1
+Language=255
+Version=31.7
+ShellOpts=
+
+[Version Info]
+Version=1.07
+Branch=0.0
+QA=2407
+               
+[Product Info]
+ProductID=sofw98
+ProductName=Soldier of Fortune Platinum
+WebReg=http://cgi.activision.com/cgi/webreg/webreg

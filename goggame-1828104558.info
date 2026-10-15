@@ -1,0 +1,44 @@
+{
+    "buildId": "55342002994012229",
+    "clientId": "51559187256763662",
+    "gameId": "1828104558",
+    "language": "English",
+    "languages": [
+        "en-US"
+    ],
+    "name": "Soldier of Fortune",
+    "playTasks": [
+        {
+            "arguments": "+set console 1",
+            "category": "game",
+            "isPrimary": true,
+            "languages": [
+                "*"
+            ],
+            "name": "Soldier of Fortune",
+            "path": "SoF.exe",
+            "type": "FileTask"
+        },
+        {
+            "category": "document",
+            "languages": [
+                "*"
+            ],
+            "name": "Manual",
+            "path": "Docs/index.htm",
+            "type": "FileTask",
+            "workingDir": "Docs"
+        },
+        {
+            "category": "document",
+            "languages": [
+                "*"
+            ],
+            "link": "http://www.gog.com/support/soldier_of_fortune_platinum_edition",
+            "name": "Support",
+            "type": "URLTask"
+        }
+    ],
+    "rootGameId": "1828104558",
+    "version": 1
+}
